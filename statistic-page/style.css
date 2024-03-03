@@ -1,0 +1,75 @@
+:root {
+  --main-color: #AD171C;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.main {
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+header h1 {
+  color: var(--main-color);
+}
+
+header button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: white;
+  transition: all ease .2s;
+}
+
+header button:hover {
+  cursor: pointer;
+  color: var(--main-color);
+  background-color: white;
+}
+
+.container {
+  margin: auto;
+  width: min-content;
+  margin-top: 32px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chart {
+  height: 300px;
+  width: 500px;
+}
+
+select {
+  font-family: 'Roboto', sans-serif;
+}
+
+.filter > * {
+  margin-top: 16px;
+}
