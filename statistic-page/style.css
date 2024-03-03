@@ -1,5 +1,5 @@
 :root {
-  --main-color: #AD171C;
+  --main-color: #ad171c;
 }
 
 html {
@@ -35,14 +35,14 @@ header h1 {
 }
 
 header button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
   border-radius: 4px;
   padding: 8px 16px;
   color: white;
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
 
 header button:hover {
@@ -67,7 +67,7 @@ header button:hover {
 }
 
 select {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .filter > * {
